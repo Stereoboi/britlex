@@ -128,6 +128,82 @@ footer .container {
 }
 
 
+.container {
+    width: 1368px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+/* ----------HEADER---------- */
+
+
+.header{
+    font-family: 'Poppins';
+    font-style: normal;
+}
+
+.logo {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
+    margin-right: 228px;
+}
+
+.bit {
+    color: var(--text-color);
+}
+
+.site-nav {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    padding-bottom: 55px;
+    padding-top: 55px;
+
+}
+
+.header-navigation {
+    display: flex;
+}
+
+.header-list {
+    display: flex;
+    align-items: center;
+}
+
+.header-item:not(:last-child){
+    margin-right: 50px;
+}
+
+.header-item {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    color: var(--main-color);
+}
+
+.header-button {
+    width: 312px;
+    height: 70px;
+    margin-left: 121px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+    border: solid 2px var(--main-color);
+    border-radius: 10px;
+    background-color: #fff;
+    cursor: pointer;
+
+}
+
+
 /* Hero */
 .hero {
   background-color: var(--accent-color);
