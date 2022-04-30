@@ -51,3 +51,57 @@ address {
 
 }
 
+/* Hero */
+.hero {
+  background-color: var(--accent-color);
+  text-align: center;
+  padding-bottom: 180px;
+  padding-top: 55px;
+  display: flex;
+  }
+
+.hero-title {
+color: var(--main-bgd-color);
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 64px;
+line-height: 80px;
+
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 696px;
+}
+
+.hero-title > p {
+font-family: 'Poppins';
+font-size: 24px;
+line-height: 36px;
+color: #8F95A5;
+width: 540px;
+height: 108px;
+}
+
+/* button */
+.button {  
+  color: #FFFFFF;
+  background-color: var(--main-color);
+  font-style: normal;
+line-height: 1.5;
+text-align: center;
+letter-spacing: 0.03em;
+font-weight: 400;
+
+  align-items: center;
+  width: 426px;
+  height: 100px;
+
+  display: inline-block;
+  border-radius: 10px;
+  }
+
+  
+  
+    
+ 
