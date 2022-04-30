@@ -281,6 +281,7 @@ footer .container {
 .about__content {
     display: flex;
     flex-flow: column;
+    justify-items: first baseline;
     width: 652px;
 }
 
@@ -306,7 +307,6 @@ footer .container {
     display: flex;
     height: 132px;
     justify-content: center;
-    align-items: center;
 }
 
 .about__item {
