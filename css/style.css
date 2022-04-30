@@ -4,6 +4,12 @@
   --skills-bg: #f5f5f5;
   --text-color: #8f95a5;
 
+}
+
+html {
+  box-sizing: border-box;
+
+
 
   --button-color: #263238;
   --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -18,6 +24,7 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
+
 
 }
 
@@ -37,7 +44,10 @@ p {
   margin-top: 0;
 
 
+
+
   margin-bottom: 0;
+
 
 }
 
@@ -62,6 +72,50 @@ img {
 address {
   font-style: normal;
 }
+
+
+/*---------------SKILLS------------------*/
+.container {
+  width: 1368px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.skills__title--primary {
+  margin-bottom: 132px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 72px;
+  color: #000000;
+}
+.skills__body {
+  display: flex;
+}
+.skills__list:nth-child(n + 2) {
+  margin-left: 30px;
+}
+.skills__list--left {
+  background: rgba(245, 245, 245, 1);
+  width: 426px;
+}
+.skills__list--right {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+.skills__item {
+  padding-top: 32px;
+  padding-left: 18px;
+  padding-right: 18px;
+  background: rgba(245, 245, 245, 1);
+}
+.skills__item--left {
+  height: 100%;
+}
+.skills__item--right:nth-child(-n + 3) {
+  width: 426px;
 
 
 /*footer*/
@@ -153,7 +207,60 @@ footer .container {
     letter-spacing: 0.03em;
     color: var(--title-color);
     margin-right: 228px;
+
 }
+.skills__item--right:nth-child(2) {
+  margin-left: 30px;
+}
+.skills__item--right:last-child {
+  display: flex;
+  width: 100%;
+  margin-top: 30px;
+  padding-bottom: 32px;
+}
+.skills__icon {
+  background-color: aqua;
+  margin-top: 24px;
+}
+.skills__icon--top {
+  width: 390px;
+  height: 264px;
+}
+.skills__icon--bottom {
+  width: 408px;
+  height: 274px;
+  margin-left: auto;
+}
+.skills__icon--speaking {
+  width: 390px;
+  height: 390px;
+}
+.skills__title {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+  color: #263238;
+  margin-bottom: 20px;
+}
+.skills__discription {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #8f95a5;
+  margin-bottom: 30px;
+}
+.skills__discription-box {
+  width: 324px;
+}
+.skills__button {
+  padding: 15px 51px;
+  border-radius: 4px;
+  background-color: #263238;
+
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
 
 .bit {
     color: var(--text-color);
@@ -317,4 +424,5 @@ font-weight: 400;
 
 .contact-form-field-btn:hover {
   transform: scale(1.1);
+
 }
