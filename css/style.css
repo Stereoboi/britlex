@@ -1,0 +1,53 @@
+:root{
+    --main-color:#263238;
+    --title-color:#000000;;
+    --skills-bg:#F5F5F5;
+    --text-color:#8F95A5;
+    
+}
+
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+
+address {
+    font-style: normal;
+
+}
+
