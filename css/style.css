@@ -50,7 +50,8 @@ address {
 /* <!-- pricing (Vladyslav) -- >   */
 
 .container {
-  width: 1368px;
+  width: 1338px;
+  height: 716px;
   padding-left: 15px;
   padding-right: 15px;
   margin-right: auto;
@@ -69,16 +70,17 @@ address {
 
 .pricing-list {
   display: flex;
-  flex-wrap: wrap;
-  margin-left: -30px;
 }
 
 .pricing-item {
+  display: block;
   position: relative;
-  width: 426px;
   height: 584px;
-  width: calc((100% / 3 - 30px));
-  margin-left: 30px;
+  width: 426px;
+}
+
+.pricing-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .pricing-svg {
@@ -102,6 +104,7 @@ address {
 }
 
 .pricing-btn {
+  position: relative;
   position: absolute;
   left: 0;
   bottom: 0;
@@ -113,17 +116,21 @@ address {
 }
 
 .pricing-btn-top {
+  position: absolute;
   font-size: 24px;
   line-height: 1.5;
   color: var(--main-color);
-  padding-left: 23px;
-  justify-content: flex-start;
+  left: 29px;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .pricing-btn-botom {
+  position: absolute;
   font-size: 18px;
   line-height: 1.5;
   color: #546269;
-  padding-right: 23px;
-  justify-content: flex-end;
+  right: 23px;
+  top: 50%;
+  transform: translateY(-50%);
 }
